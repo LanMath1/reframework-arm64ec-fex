@@ -1,0 +1,259 @@
+[14:12:23.560158] [W]  OptiScaler v10.0.0-dev (f80e4da3) (2026-11-02) loaded
+[14:12:23.560312] [W]  ---------------------------------
+[14:12:23.560331] [W]  OptiScaler is freely downloadable from
+[14:12:23.560345] [W]  GitHub : https://github.com/optiscaler/OptiScaler/releases
+[14:12:23.560359] [W]  Nexus  : https://www.nexusmods.com/site/mods/986
+[14:12:23.560371] [W]  If you paid for these files, you've been scammed!
+[14:12:23.560383] [W]  DO NOT USE IN MULTIPLAYER GAMES
+[14:12:23.560395] [I]  
+[14:12:23.560408] [I]  LogLevel: 2
+[14:12:23.560421] [I]  
+[14:12:23.560443] [I]  Windows version: Windows 10 (10.0.19045)
+[14:12:23.560456] [I]  
+[14:12:23.560468] [I]  Config parameters:
+[14:12:23.560482] [I]  Upscalers.Dx11Upscaler: sgsr2_12
+[14:12:23.560493] [I]  Upscalers.Dx12Upscaler: sgsr3
+[14:12:23.560505] [I]  FrameGen.Enabled: false
+[14:12:23.560517] [I]  Log.LogToFile: true
+[14:12:23.560528] [I]  Log.LogLevel: 2
+[14:12:23.560539] [I]  Menu.ShortcutKey: -1
+[14:12:23.560549] [I]  Menu.DisableSplash: true
+[14:12:23.560561] [I]  Menu.FpsShortcutKey: -1
+[14:12:23.560572] [I]  Menu.FpsCycleShortcutKey: -1
+[14:12:23.560583] [I]  Menu.FGShortcutKey: -1
+[14:12:23.560595] [I]  UpscaleRatio.UpscaleRatioOverrideEnabled: false
+[14:12:23.560606] [I]  Spoofing.Dxgi: true
+[14:12:23.560617] [I]  Spoofing.Vulkan: false
+[14:12:23.560628] [I]  Spoofing.VulkanExtensionSpoofing: false
+[14:12:23.560639] [I]  Spoofing.StreamlineSpoofing: true
+[14:12:23.560650] [I]  Inputs.EnableDlssInputs: true
+[14:12:23.560662] [I]  Inputs.EnableXeSSInputs: true
+[14:12:23.560673] [I]  Inputs.EnableFsr2Inputs: true
+[14:12:23.560684] [I]  Inputs.UseFsr2Inputs: true
+[14:12:23.560695] [I]  Inputs.EnableFsr3Inputs: true
+[14:12:23.560706] [I]  Inputs.UseFsr3Inputs: true
+[14:12:23.560717] [I]  Inputs.EnableFfxInputs: true
+[14:12:23.560728] [I]  Inputs.UseFfxInputs: true
+[14:12:23.560740] [I]  Plugins.LoadAsiPlugins: true
+[14:12:23.560752] [I]  
+[14:12:23.560766] [I]  Setting DllPath to D:\steamapps\common\RESIDENT EVIL 2  BIOHAZARD RE2\OptiScaler
+[14:12:23.560778] [I]  
+[14:12:23.560829] [I]  
+[14:12:23.560844] [I] IsRunningOnWine Running on Wine 11.0!
+[14:12:23.561764] [I]  
+[14:12:23.561786] [I]  Check for DLSS files
+[14:12:23.570164] [I]  
+[14:12:23.570589] [I] CheckQuirks Game's Exe: re2.exe
+[14:12:23.570617] [I] CheckQuirks Game Name: 
+[14:12:23.570631] [I] CheckQuirks Game Version: 0.0.0.2
+[14:12:23.570644] [I] CheckQuirks Game Engine: Other
+[14:12:23.571396] [I]  Quirk: Using old overlay (draws on upscaled image)
+[14:12:23.571426] [I]  
+[14:12:23.576283] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[14:12:23.576602] [W] CheckUpscalerFiles nvngx.dll not found!
+[14:12:23.579539] [I] CheckUpscalerFiles libxess.dll found in game folder
+[14:12:23.580753] [I] Hook Attaching Vulkan vkQueueSubmit hook
+[14:12:23.596313] [I]  
+[14:12:23.599650] [W] LoadProxyLibrary Can't find amd_fidelityfx_loader_dx12.dll, returning nullptr!
+[14:12:23.607093] [I] LoadProxyLibrary amd_fidelityfx_dx12.dll loaded from system path
+[14:12:23.607143] [I] InitFfxDx12 Loaded from D:\steamapps\common\RESIDENT EVIL 2  BIOHAZARD RE2\amd_fidelityfx_dx12.dll
+[14:12:23.609022] [E] Hook Couldn't hook model selection from the SDK dll
+[14:12:23.609968] [I]  
+[14:12:23.613522] [W] LoadProxyLibrary Can't find amd_fidelityfx_upscaler_dx12.dll, returning nullptr!
+[14:12:23.613566] [I] InitFfxDx12_SR LoadResult: false
+[14:12:23.613583] [I]  
+[14:12:23.616798] [W] LoadProxyLibrary Can't find amd_fidelityfx_framegeneration_dx12.dll, returning nullptr!
+[14:12:23.616842] [I] InitFfxDx12_FG LoadResult: false
+[14:12:23.616859] [I]  
+[14:12:23.619794] [W] LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[14:12:23.619845] [I] InitFfxDx12_Denoiser LoadResult: false
+[14:12:23.619859] [I]  
+[14:12:23.622682] [W] LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[14:12:23.622711] [I] InitFfxDx12_Radiance LoadResult: false
+[14:12:23.622724] [I] InitFfxDx12 LoadResult: true
+[14:12:23.622751] [I]  
+[14:12:23.625498] [W] LoadProxyLibrary Can't find amd_fidelityfx_upscaler_dx12.dll, returning nullptr!
+[14:12:23.625531] [I] InitFfxDx12_SR LoadResult: false
+[14:12:23.625545] [I]  
+[14:12:23.628180] [W] LoadProxyLibrary Can't find amd_fidelityfx_framegeneration_dx12.dll, returning nullptr!
+[14:12:23.628240] [I] InitFfxDx12_FG LoadResult: false
+[14:12:23.628256] [I]  
+[14:12:23.631251] [W] LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[14:12:23.631291] [I] InitFfxDx12_Denoiser LoadResult: false
+[14:12:23.631305] [I]  
+[14:12:23.633948] [W] LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[14:12:23.633975] [I] InitFfxDx12_Radiance LoadResult: false
+[14:12:25.672767] [I] LoadProxyLibrary libxess.dll loaded from system path
+[14:12:25.672853] [I] InitXeSS Loaded from D:\steamapps\common\RESIDENT EVIL 2  BIOHAZARD RE2\libxess.dll
+[14:12:25.680810] [I] InitXeSS LoadResult: true
+[14:12:25.684017] [W] LoadProxyLibrary Can't find libxess_dx11.dll, returning nullptr!
+[14:12:25.684045] [I] InitXeSSDx11 LoadResult: false
+[14:12:25.686263] [W] LoadProxyLibrary Can't find libxess_fg.dll, returning nullptr!
+[14:12:25.689835] [W] LoadProxyLibrary Can't find libxell.dll, returning nullptr!
+[14:12:25.692949] [W] LoadProxyLibrary Can't find libxell.dll, returning nullptr!
+[14:12:25.692981] [I] InitNVNGX 
+[14:12:25.696030] [W] LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[14:12:25.699058] [W] LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[14:12:25.699087] [I] NvngxPath trying to load nvngx from registry path!
+[14:12:25.699261] [I]  
+[14:12:25.711137] [I] LoadAsiPlugins Loaded: D:\steamapps\common\RESIDENT EVIL 2  BIOHAZARD RE2\OptiScaler\plugins\OptiPatcher.asi
+[14:12:25.711349] [I]  
+[14:12:25.711401] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[14:12:25.711756] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[14:12:25.712006] [I]  
+[14:12:25.712034] [I]  Init done
+[14:12:25.712049] [I]  ---------------------------------------------
+[14:12:25.712063] [I]  
+[14:12:25.837785] [I] hkvkCreateInstance Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:26.007835] [W] GetDriverStore Failed to query adapter info -3FFFFFFE
+[14:12:26.024881] [I] hkvkCreateInstance vkInstanceExtensions is empty, enumerating instance extensions
+[14:12:26.027330] [I] hkvkCreateInstance Adding FFX Vulkan extensions
+[14:12:26.027363] [I] hkvkCreateInstance Adding Vulkan w/Dx12 extensions
+[14:12:26.092492] [I] hkvkCreateInstance Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:26.300267] [I] hkvkCreateDevice Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:26.338122] [I]  Detected GPUs:
+                      Turnip Adreno (TM) 740
+                          vendorId: 5143, deviceId: A01, VRAM: 8606MB
+                          dxvk: true, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[14:12:27.003951] [I] RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[14:12:33.547803] [I] LoadLibraryCheckW Calling CreateDxgiFactory methods for overlay!
+[14:12:33.560977] [I] hkvkCreateInstance Adding FFX Vulkan extensions
+[14:12:33.561047] [I] hkvkCreateInstance Adding Vulkan w/Dx12 extensions
+[14:12:33.604093] [I] hkvkCreateInstance Adding FFX Vulkan extensions
+[14:12:33.604172] [I] hkvkCreateInstance Adding Vulkan w/Dx12 extensions
+[14:12:33.645291] [I] hkvkCreateInstance Adding FFX Vulkan extensions
+[14:12:33.645359] [I] hkvkCreateInstance Adding Vulkan w/Dx12 extensions
+[14:12:34.728753] [I] hkvkCreateInstance Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:34.757971] [I] hkD3D12CreateDevice Adapter Desc: Turnip Adreno (TM) 740
+[14:12:34.788341] [I] hkvkCreateInstance Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:34.994254] [I] hkvkCreateDevice Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:35.027207] [I] hkD3D12CreateDevice Adapter Desc: Turnip Adreno (TM) 740
+[14:12:35.037224] [I] hkvkCreateInstance Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:35.237200] [I] hkvkCreateDevice Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:35.269219] [I] hkD3D12CreateDevice Adapter Desc: Turnip Adreno (TM) 740
+[14:12:35.279954] [I] hkvkCreateInstance Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:35.494566] [I] hkvkCreateDevice Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:35.527810] [I] hkD3D12CreateDevice Adapter Desc: Turnip Adreno (TM) 740
+[14:12:35.538633] [I] hkvkCreateInstance Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:35.752656] [I] hkvkCreateDevice Skipping because DXVK/VKD3D is creating a D3D device
+[14:12:35.774415] [I] LoadLibraryCheckW C:\windows\system32\nvapi64.dll call!
+[14:12:35.774513] [I] Hook NvAPI_QueryInterface found, hooking!
+[14:12:38.030877] [W] CreateSwapChainForHwnd Can't init FG Feature or invalid FGOutput setting!
+[14:12:38.121671] [I] WrappedIDXGISwapChain4 1 created, real: 22A8B30, refCount: 1
+[14:12:38.585671] [I] LoadLibraryCheckW dxgi.dll call, returning this dll!
+[14:12:38.592194] [W] CreateSwapChainForHwnd Overlay call!
+[14:12:40.832577] [I] Version XeSS Version: v2.0.2
+[14:12:40.832845] [I] NVSDK_NGX_D3D12_Init_with_ProjectID InProjectId: 0F71CA1E-5CA1-E42A-AC1E-5CA1E0A11E55
+[14:12:40.832875] [I] NVSDK_NGX_D3D12_Init_with_ProjectID InEngineType: 0
+[14:12:40.832889] [I] NVSDK_NGX_D3D12_Init_with_ProjectID InEngineVersion: 10.0.0
+[14:12:40.839128] [I] NVSDK_NGX_D3D12_Init_Ext AppId: 4919
+[14:12:40.839161] [I] NVSDK_NGX_D3D12_Init_Ext SDK: 15
+[14:12:40.839179] [I] NVSDK_NGX_D3D12_Init_Ext InApplicationDataPath D:\steamapps\common\RESIDENT EVIL 2  BIOHAZARD RE2\
+[14:12:43.667077] [I] TryCreateOptiFeature Creating OptiScaler feature, HandleId: 1000000
+[14:12:43.667166] [I] GetUpscalerBackend Adreno GPU (Turnip Adreno (TM) 740, vendorId 0x5143), defaulting to SGSR2
+[14:12:43.667183] [I] TryCreateOptiFeature Creating SGSR 3 upscaler feature
+[14:12:43.667221] [I] SetHandle Handle: 1000000
+[14:12:43.667239] [I] SetInitParameters Init Flag AutoExposure: true
+[14:12:43.667250] [I] SetInitParameters Init Flag DepthInverted: true
+[14:12:43.667261] [I] SetInitParameters Init Flag IsHdr: false
+[14:12:43.667271] [I] SetInitParameters Init Flag JitteredMV: false
+[14:12:43.667282] [I] SetInitParameters Init Flag LowResMV: true
+[14:12:43.667292] [I] SetInitParameters Init Flag SharpenEnabled: false
+[14:12:43.667307] [I] SetInitParameters Render Resolution: 1114x626, Display Resolution 1920x1080, Quality: 1
+[14:12:43.667324] [I] InitInternal Initializing SGSR3 1114x626 -> 1920x1080
+[14:12:43.669264] [I] Poll Vela live (Z:\tmp\vela-live\883710.ini): model fsr4 ratio -1 amax -1 alphak -1 mk -1 fresh -1 sq -1 ncap -1 disocc -1 lossy 1 npu 2
+[14:12:43.669310] [I] CreatePipelines SGSR3: Vela live model fsr4
+[14:12:43.669357] [I] Init Vela FSR 4 VK: vkd3d device extensions: descriptor_buffer true, synchronization2 false
+[14:12:43.729682] [I] Init Vela FSR 4 VK: FSR 4.1.1 VK INT8 context 1114x626 -> 1920x1080 (hdr false, network every 1 frames)
+[14:12:43.729779] [I] CreatePipelines SGSR3: kernels v0 / v1a (bits 0x3fc0, scale 1.724), upscale DXIL SM 6.2, min16float, pixel-shader pipelines true/true, mode student, history RGBA16F; device: MinPrecisionSupport 0 Native16BitShaderOps 0 shader model 0x66
+[14:12:43.751843] [I] Init SGSR3 student: device Turnip Adreno (TM) 740, vkd3d device features: shaderFloat16 on, dynamicRendering on, shaderIntegerDotProduct on, shaderStorageImageExtendedFormats on
+[14:12:43.777337] [I] BuildRecipe SGSR3 student: 9 passes + resolve (image by imageStore), 26 tensors in 24 images, levels 560x316 / 280x158 / 140x79, history layout 1
+[14:12:43.777416] [I] Init SGSR3 student: model S4s4P2b, device Turnip Adreno (TM) 740, vkd3d device features: shaderFloat16 on, dynamicRendering on, shaderIntegerDotProduct on, shaderStorageImageExtendedFormats on
+[14:12:43.821425] [I] Initialize Initialize requested target:0x1007c input:0x0 isUwp:0 useSubclass:1 currentPid:312
+[14:12:43.821497] [I] SetTargetWindow target window set hwnd:0x1007c root:0x1007c pid:312 tid:316 currentPid:312 external:0 isUwp:0 useSubclass:1
+[14:12:43.821518] [I] SetInputWindow input window set hwnd:0x1007c root:0x1007c pid:312 tid:316 explicitInput:0 useSubclass:1
+[14:12:43.821576] [I] InstallWindowSubclass subclass installed hwnd:0x1007c previousWndProc:4294901783 optiWndProc:123145195166220
+[14:12:43.821598] [I] InstallHooks installing Win32 input hooks currentPid:312 targetPid:312 inputPid:312
+[14:12:43.823323] [I] InstallHooks Win32 message hooks installed
+[14:12:43.823939] [I] InstallHooks Win32 key state hooks installed
+[14:12:43.824379] [I] InstallHooks Win32 GetMessagePos hooks installed
+[14:12:43.824840] [I] InstallHooks Win32 clip cursor hooks installed
+[14:12:43.825641] [I] InstallHooks Win32 message hooks installed
+[14:12:43.826081] [I] InstallHooks Win32 raw input hooks installed
+[14:12:43.826526] [I] InstallHooks Win32 windows input hooks installed
+[14:12:43.827057] [E] InstallHooks Win32 position input installation failed result:9
+[14:12:43.832183] [I] PatchIatEntry OptiInput IAT patched GetCursorPos module:0x140000000 entry:0x1458ad8e8 original:0x6ffffebb0d70 detour:0x6ffff99c28c8
+[14:12:43.832285] [I] PatchIatEntry OptiInput IAT patched SetCursorPos module:0x140000000 entry:0x1458ad8b0 original:0x6ffffeba32f0 detour:0x6ffff99c2ab0
+[14:12:43.835460] [I] PatchIatEntry OptiInput IAT patched GetCursorPos module:0x6ffff8dd0000 entry:0x6ffff91f00d8 original:0x6ffffebb0d70 detour:0x6ffff99c28c8
+[14:12:43.835526] [I] PatchIatEntry OptiInput IAT patched SetCursorPos module:0x6ffff8dd0000 entry:0x6ffff91f01b0 original:0x6ffffeba32f0 detour:0x6ffff99c2ab0
+[14:12:43.837359] [I] PatchIatEntry OptiInput IAT patched GetCursorPos module:0x6ffff7110000 entry:0x6ffff7a08780 original:0x6ffffebb0d70 detour:0x6ffff99c28c8
+[14:12:43.837424] [I] PatchIatEntry OptiInput IAT patched SetCursorPos module:0x6ffff7110000 entry:0x6ffff7a08790 original:0x6ffffeba32f0 detour:0x6ffff99c2ab0
+[14:12:43.837709] [I] PatchIatEntry OptiInput IAT patched GetCursorPos module:0x6ffffb9d0000 entry:0x6ffffbb10180 original:0x6ffffebb0d70 detour:0x6ffff99c28c8
+[14:12:43.839708] [I] PatchIatEntry OptiInput IAT patched GetCursorPos module:0x6ffff1870000 entry:0x6ffff18d00a0 original:0x6ffffebb0d70 detour:0x6ffff99c28c8
+[14:12:43.839773] [I] PatchIatEntry OptiInput IAT patched SetCursorPos module:0x6ffff1870000 entry:0x6ffff18d0158 original:0x6ffffeba32f0 detour:0x6ffff99c2ab0
+[14:12:43.839968] [I] PatchIatEntry OptiInput IAT patched GetCursorPos module:0x6fffefdf0000 entry:0x6ffff0f7dbf8 original:0x6ffffebb0d70 detour:0x6ffff99c28c8
+[14:12:43.842296] [I] PatchIatEntry OptiInput IAT patched SetCursorPos module:0x6fffeef20000 entry:0x6fffef0337c0 original:0x6ffffeba32f0 detour:0x6ffff99c2ab0
+[14:12:43.844495] [I] InstallCursorIatHooks OptiInput cursor IAT hooks installed patched:1 entries:11
+[14:12:43.844536] [I] Initialize Initialize completed hooksInstalled:1 target:0x1007c targetPid:312 input:0x1007c inputPid:312 externalTarget:0 subclassed:1
+[14:12:43.845182] [I] UpdateXInputIntegration XInput hooks installed module:0x6fffee070000 getState:1 getStateEx:1 getKeystroke:1 setState:1
+[14:12:43.845907] [I] InstallDirectInputExportHook DirectInput8Create hook installed module:0x6ffff7110000
+[14:12:43.845945] [I] MenuHdrCheck Output HDR: true, UI Mode: SDR
+[14:12:43.848671] [I] UpdateSharedConstants SGSR3 constants: MV_Scale=(557, -313) lowResMV=true -> mvToUv=(0.5, -0.5); depthInverted=true preExposure=1 fovHor=1.0274253
+[14:12:43.848715] [I] EvaluateInternal SGSR3 inputs: color 1114x626 fmt 87, mv 1114x626 fmt 13 (sampled as 1114x626), depth 19, reactive false, T&C false, output fmt 28 UAV true RT true, flags 0x33
+[14:12:43.849798] [I] MvInit Vela FSR 4 VK: MV pass ready (1114x626 RG16F, render px)
+[14:12:43.849838] [E] Unsupported Vela FSR 4 VK: motion vectors (MV pass) format VkFormat 92 is not one the provider takes
+[14:12:43.849853] [E] EvaluateFsr4 SGSR3: FSR 4 VK frame failed; SGSR 2 from the next frame
+[14:12:43.853025] [E] EvaluateInternal SGSR3: the student failed; v1f from the next frame
+[14:12:44.149108] [I] NVSDK_NGX_D3D12_ReleaseFeature releasing feature with id 1000000
+[14:12:44.278045] [I] TryCreateOptiFeature Creating OptiScaler feature, HandleId: 1000001
+[14:12:44.278132] [I] GetUpscalerBackend Adreno GPU (Turnip Adreno (TM) 740, vendorId 0x5143), defaulting to SGSR2
+[14:12:44.278156] [I] TryCreateOptiFeature Creating SGSR 3 upscaler feature
+[14:12:44.278180] [I] SetHandle Handle: 1000001
+[14:12:44.278215] [I] SetInitParameters Init Flag AutoExposure: true
+[14:12:44.278230] [I] SetInitParameters Init Flag DepthInverted: true
+[14:12:44.278245] [I] SetInitParameters Init Flag IsHdr: false
+[14:12:44.278259] [I] SetInitParameters Init Flag JitteredMV: false
+[14:12:44.278273] [I] SetInitParameters Init Flag LowResMV: true
+[14:12:44.278287] [I] SetInitParameters Init Flag SharpenEnabled: false
+[14:12:44.278305] [I] SetInitParameters Render Resolution: 1114x626, Display Resolution 1920x1080, Quality: 1
+[14:12:44.278327] [I] InitInternal Initializing SGSR3 1114x626 -> 1920x1080
+[14:12:44.279131] [I] CreatePipelines SGSR3: Vela live model fsr4
+[14:12:44.279184] [I] Init Vela FSR 4 VK: vkd3d device extensions: descriptor_buffer true, synchronization2 false
+[14:12:44.286971] [I] Init Vela FSR 4 VK: FSR 4.1.1 VK INT8 context 1114x626 -> 1920x1080 (hdr false, network every 1 frames)
+[14:12:44.287061] [I] CreatePipelines SGSR3: kernels v0 / v1a (bits 0x3fc0, scale 1.724), upscale DXIL SM 6.2, min16float, pixel-shader pipelines true/true, mode student, history RGBA16F; device: MinPrecisionSupport 0 Native16BitShaderOps 0 shader model 0x66
+[14:12:44.305840] [I] Init SGSR3 student: device Turnip Adreno (TM) 740, vkd3d device features: shaderFloat16 on, dynamicRendering on, shaderIntegerDotProduct on, shaderStorageImageExtendedFormats on
+[14:12:44.324988] [I] BuildRecipe SGSR3 student: 9 passes + resolve (image by imageStore), 26 tensors in 24 images, levels 560x316 / 280x158 / 140x79, history layout 1
+[14:12:44.325065] [I] Init SGSR3 student: model S4s4P2b, device Turnip Adreno (TM) 740, vkd3d device features: shaderFloat16 on, dynamicRendering on, shaderIntegerDotProduct on, shaderStorageImageExtendedFormats on
+[14:12:44.330415] [I] Initialize Initialize requested target:0x1007c input:0x0 isUwp:0 useSubclass:1 currentPid:312
+[14:12:44.330482] [I] MenuHdrCheck Output HDR: true, UI Mode: SDR
+[14:12:44.332355] [W] TryEvaluateOptiFeature Vela live: fsr4 cannot run in this game; SGSR 2 instead
+[14:12:44.332401] [I] TryEvaluateOptiFeature Vela live: handle 1000001 model fsr4 -> SGSR 2 (the game draws 1114x626)
+[14:12:44.332420] [I] ChangeFeature changeBackend is true, counter: 1
+[14:12:44.332433] [I] ChangeFeature changing backend to SGSR 2
+[14:12:44.383465] [I] ChangeFeature changeBackend is true, counter: 2
+[14:12:44.383559] [I] ChangeFeature Creating new SGSR 2 upscaler
+[14:12:44.383583] [I] SetHandle Handle: 1000001
+[14:12:44.383625] [I] SetInitParameters Init Flag AutoExposure: true
+[14:12:44.383641] [I] SetInitParameters Init Flag DepthInverted: true
+[14:12:44.383655] [I] SetInitParameters Init Flag IsHdr: false
+[14:12:44.383713] [I] SetInitParameters Init Flag JitteredMV: false
+[14:12:44.383729] [I] SetInitParameters Init Flag LowResMV: true
+[14:12:44.383740] [I] SetInitParameters Init Flag SharpenEnabled: false
+[14:12:44.383756] [I] SetInitParameters Render Resolution: 1114x626, Display Resolution 1920x1080, Quality: 1
+[14:12:44.390648] [I] ChangeFeature changeBackend is true, counter: 3
+[14:12:44.390728] [I] InitInternal Initializing SGSR2 1114x626 -> 1920x1080
+[14:12:44.457508] [I] ChangeFeature init successful for SGSR 2, upscaler changed
+[14:12:44.457643] [I] EvaluateInternal Inputs: color 1114x626 fmt 87, mv 1114x626 fmt 13, render 1114x626
+[14:12:44.457674] [I] EvaluateInternal NGX subrects: mv base (0,0), color base (0,0), render subrect 1114x626
+[14:12:44.457709] [I] EvaluateInternal Inputs: color 1114x626 fmt 87, mv 1114x626 fmt 13, render 1114x626
+[14:12:44.457728] [I] EvaluateInternal Reactive mask: disabled by config (strength 0)
+[14:12:44.457772] [I] UpdateSharedConstants MV convention: NGX MV_Scale=(557, -313) render=1114x626 -> motionVectorScale=(-1, -1)
+[14:12:44.457791] [I] UpdateSharedConstants   flags: DepthInverted=true JitteredMV=false LowResMV=true AutoExposure=true preExposure=1
+[14:12:46.396838] [I] Initialize Initialize requested target:0x1007c input:0x0 isUwp:0 useSubclass:1 currentPid:312
+[14:12:46.396910] [I] MenuHdrCheck Output HDR: true, UI Mode: SDR
+[14:13:24.442582] [I] hkvkCreateDevice vkDeviceExtensions is empty, enumerating device extensions
+[14:13:24.443798] [I] hkvkCreateDevice Adding FFX Vulkan extensions
+[14:13:24.443839] [I] hkvkCreateDevice Adding XeSS Vulkan extensions
+[14:13:24.443855] [I] hkvkCreateDevice Adding Vk w/Dx12 Vulkan extensions

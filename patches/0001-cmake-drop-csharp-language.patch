@@ -1,0 +1,11 @@
+﻿--- a/cmake.toml
++++ b/cmake.toml
+@@ -4,7 +4,7 @@
+ # > cmake --build build --config Release
+ [project]
+ name = "reframework"
+-languages = ["CXX", "C", "CSharp"]
++languages = ["CXX", "C"]
+ cmake-after = """
+ set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
+ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /MP")
